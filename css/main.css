@@ -5,7 +5,8 @@ body {
     /*background-image: url(
     '../spring-rain-wallpapers-mobile-On-wallpaper-hd.jpg');
     color: #fff;*/
-    background-image: repeating-linear-gradient(grey, white 10%, grey 20%);
+    background-color: pink;
+    background-image: linear-gradient(grey, white);
 }
 /*#grad{
     background-image: repeating-linear-gradient(grey, white 10%, grey 20%);

@@ -5,10 +5,11 @@ body {
     /*background-image: url(
     '../spring-rain-wallpapers-mobile-On-wallpaper-hd.jpg');
     color: #fff;*/
-}
-#grad{
     background-image: repeating-linear-gradient(grey, white 10%, grey 20%);
 }
+/*#grad{
+    background-image: repeating-linear-gradient(grey, white 10%, grey 20%);
+}*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

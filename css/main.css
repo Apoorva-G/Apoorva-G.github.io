@@ -1,13 +1,13 @@
 body {
     margin: 60px auto;
     width: 70%;
-    /*background-image: url(
-  	'../spring-rain-wallpapers-mobile-On-wallpaper-hd.jpg');
-    color: #fff;*/
-    
-    background-image: repeating-linear-gradient(grey, white 10%, grey 20%);
-    
 
+    /*background-image: url(
+    '../spring-rain-wallpapers-mobile-On-wallpaper-hd.jpg');
+    color: #fff;*/
+}
+#grad{
+    background-image: repeating-linear-gradient(grey, white 10%, grey 20%);
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

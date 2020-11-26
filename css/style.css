@@ -24,7 +24,7 @@
 /* Google fonts & font family
 ==================================================*/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Almendra+SC:400,400i,700,700i,900,900i|IM Fell Double Pica SC|Girassol';
 
 /*
 font-family: 'Playfair Display', serif;
@@ -43,9 +43,10 @@ h1 {
 }
 
 h5 {
-    font-family: 'Playfair Display', serif;
-    font-size: 70px;
-    line-height: 70px;
+    font-family: 'Girassol', serif;
+    font-size: 60px;
+    line-height: 80px;
+    margin-top: 40px;
     color: #000000;
 }
 
@@ -55,9 +56,9 @@ h6 {
     letter-spacing: 2px;
     position: relative;
     color: #425BB5;
-    margin-left: 10px;
+    margin-left: 500px;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -298,13 +299,22 @@ a.active {
 
 /* home section
 ==================================================*/
+@keyframes example {
+  0%  {background-color: #425BB5; background-blend-mode: lighten;}
+  50%   {background-color: black; background-blend-mode: lighten;}
+}
 
 #home {
     background: url(../img/backg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 120%;
+    background-blend-mode: lighten;
     height: 130vh;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 8s;
+    /*animation-iteration-count: infinite; */
 }
 
 .table-cell {
@@ -327,15 +337,19 @@ a.active {
 
 .about-img-div img {
     margin: 0 auto;
+    border-radius: 50%;
+    width: 350px;
+
 }
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border-radius: 50%;
+    border: 5px solid #425BB5;
     width: 400px;
     height: 400px;
-    top: 40px;
-    left: 50px;
+    bottom: -20px;
+    left: 180px;
     z-index: 1
 }
 

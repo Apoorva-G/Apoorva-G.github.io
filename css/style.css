@@ -300,18 +300,18 @@ a.active {
 /* home section
 ==================================================*/
 @keyframes example {
-  0%  {background-color: #425BB5; background-blend-mode: lighten;}
-  50%   {background-color: black; background-blend-mode: lighten;}
+  from  {background-color: #425BB5; background-blend-mode: lighten;}
+  to   {background-color: #f79836; background-blend-mode: lighten;}
 }
 
 #home {
-    background: url(../img/backg.png);
+    /*background: url(../img/backg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 120%;
-    background-blend-mode: lighten;
+    background-blend-mode: lighten;*/
     height: 130vh;
-    background-color: black;
+    background-color: #f79836;
     animation-name: example;
     animation-duration: 8s;
     /*animation-iteration-count: infinite; */

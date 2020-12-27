@@ -125,17 +125,6 @@ a.active {
   color: #425BB5;
 }
 
-@media (max-width:768px){
-    .sidenav {
-        display: none !important;
-    }
-
-    .main {
-      margin-left: 10px;
-    }
-}
-
-
 /* General
 ==================================================*/
 
@@ -350,3 +339,45 @@ td, th {
   text-align: center;
   font-size: 16px;
 }
+
+/* Responsive media queries
+==================================================*/
+
+@media (max-width:768px){
+    .sidenav {
+        display: none !important;
+    }
+    .main {
+      margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .timeline-event-copy {
+        width: 90%;
+        left: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #home{
+        height: 600px;
+    }
+}
+
+@media (max-width: 420px) {
+    nav li {
+        margin: 6px;
+    }
+    nav li a {
+        font-size: 10px;
+    }
+}
+
+

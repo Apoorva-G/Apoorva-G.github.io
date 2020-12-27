@@ -128,7 +128,10 @@ a.active {
 @media (max-width:768px){
     .sidenav {
         display: none !important;
+    }
 
+    .main {
+      margin-left: 10px;
     }
 }
 

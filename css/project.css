@@ -125,7 +125,7 @@ a.active {
   color: #425BB5;
 }
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
     .sidenav {
         display: none !important;
 

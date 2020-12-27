@@ -346,6 +346,7 @@ td, th {
 @media (max-width:768px){
     .sidenav {
         display: none !important;
+        margin-left: -250px;
     }
     .main {
       margin-left: 10px;
@@ -366,8 +367,8 @@ td, th {
         font-size: 50px;
         line-height: 50px;
     }
-    #home{
-        height: 600px;
+    #title_a{
+        height: 800px;
     }
 }
 

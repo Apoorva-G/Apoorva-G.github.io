@@ -357,7 +357,8 @@ td, th {
       width: 90%;
       margin-left: 2px;
     }
-    .table{
+
+    table{
       width: 50%;
     }
     .result_box{
@@ -393,7 +394,7 @@ td, th {
     }
 
     .navbar a{
-      font-size: 8px;
+      font-size: 9px;
     }
 }
 

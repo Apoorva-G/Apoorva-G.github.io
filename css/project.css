@@ -352,10 +352,10 @@ td, th {
     .main {
       margin-left: 10px;
       margin-right: 10px;
-      line-height: 20px;
     }
     .vid{
       width: 90%;
+      margin-left: 2px;
     }
 }
 
@@ -383,7 +383,7 @@ td, th {
         margin: 6px;
     }
     nav li a {
-        font-size: 10px;
+        font-size: 6px;
     }
 }
 

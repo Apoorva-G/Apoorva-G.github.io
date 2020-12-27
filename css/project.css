@@ -125,6 +125,13 @@ a.active {
   color: #425BB5;
 }
 
+@media only screen and (min-width:768px){
+    #sidenav {
+        display: none;
+    }
+}
+
+
 /* General
 ==================================================*/
 

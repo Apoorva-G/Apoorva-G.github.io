@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serious Gaming | Apoorva Gondimalla</title>
+    <link rel="icon" href="img/logo3.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/project.css" rel="stylesheet">
+
+</head>
+
+<body>
+<a name="top"></a>
+
+<div class="navbar">
+  <a href="index.html#home">Home</a>
+  <a href="index.html#projects">projects</a>
+  <a href="index.html#about">About</a>
+  <a href="img/CV.pdf">CV</a>
+  <a href="index.html#contact">contact</a>
+</div>
+
+<div class="sidenav">
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#game_play">Design</a></li>
+      <li><a href="#iterations">Testing &</br></br>Improvements</a></li>
+      <li><a href="#learnings">Reflections</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="main">
+
+  <div class="container" id="title_a">
+    <p class="size-50"> <br/> Serious Gaming <br /> for Stroke Rehabilitation </p>
+    <div class="h-150"></div>
+  </div>
+
+  <section class="container" id="overview" style="padding-top: 100px;">
+    <p class="size-30"> Overview </p>
+    <p >Stroke rehabilitation is an intensive process. It requires one to perform repititive excercises inorder to relearn functionality of affected limbs. Games assist the patients to stay involved in the exercises and promote healing. </p>
+    <p> Statistics state that fingers are often the last to recover. However, most existing games need the user to hold a controller or wear an equipment inorder to play. Thus, this project aims to provide a natural user interface by developing a kinect based game. </p>
+    <hr style="width:100%;text-align:center;margin-left:0;background-color:black;margin-top:50px;">
+      <p> <b> Advisor : </b> Dr. Kavita Vemuri </p>
+      <p> <b> Team members : </b> Sai Charan Kommana </p>
+      <p> <b> Duration : </b> 2 months </p>
+      <p> <b> Tools : </b> Unity, kinect360 </p>
+    <hr style="width:100%;text-align:center;margin-left:0;background-color:black;">
+  </section>
+
+  <div class="h-50"></div>
+
+  <section class="container" id="research" style="padding-top: 100px;">
+    <p class="size-30"> Research</p>
+
+    We visited a rehabilitation center and communicated with doctors and stroke victims to empathize and understand their needs, mindset and constraints. Focus points were established from this excercise to stay in line with the end user goals.
+
+    <div class="research_box">
+     <b> Generic. </b> </br>
+      A game motive appealing to majority of people from different age groups and backgrounds 
+    </div>
+    <div class="research_box">
+      <b> Movement focused. </b> </br>
+      Game play movements must align with the appropriate excercise and postures for rehabilitation
+    </div>
+    <div class="research_box">
+     <b> Simple. </b> </br>
+      Low cognitive load from the game in account to the patient's state of mind 
+    </div>
+    <div class="research_box">
+     <b> Frequent motivation </b> </br>
+     Need for constant motivation to assist in performing the difficult limb movements
+    </div>
+  </section>
+
+  <section class="container" id="game_play" style="padding-top: 100px;">
+    <p class="size-30">Design</p>
+
+    <b style="font-size: 20px"> Game Flow </b>
+    <div>
+      <img src="img/portfolio/game_flow.png" style="width: 100%;">
+    </div>
+
+    <div class="h-50"></div>
+
+    <p>
+      <p> <b style="font-size: 20px; color: green;">How to make the game appealing to the users?</b> </p>
+      <ul>
+        <li>A generic interest of a multitude of people from varied backgrounds and age group</li>
+        <li>A form of hope and support</li>
+        <li>Majority of the target users trust in God and hopes to visit places of worship</li>
+        <p class="statement">Provide a piligrimage experience to famous temples in India</p>
+      </ul>
+    </p>
+
+    <p> <b style="font-size: 20px;color: green; ">How to enable appropriate excercises?</b> </br>
+      <ul>
+        <li> Vertical and horizontal movement of elbow or shoulder</li>
+        <p class="statement"> A grid based item collection</p>
+        <li> Navigate in horizontal or vertical directions over the grid to collect items</li>
+        <li> For instance, a horizontal motion is achieved by collecting items from a single row with other rows freezed. Similarly, for vertical motion items are collected from a single column<!--The user can restrain to a single row or column to collect the items by freezing other rows or columns. This ensures the necessary excercise is performed.--></li>
+        <li> To advance the level, user can choose to collect from any grid</li>
+      </ul>
+    </p>
+
+    <p> <b style="font-size: 20px; color: green;">How to perpetuate motivation?</b> </br>
+      <ul>
+        <li> User gets easily demotivated as the excercise is physically straining</li>
+        <p class="statement"> Set heirarchical goals</p>
+            <ul>
+              <li> Low - Collect appropriate items to fill the health bar -> unlocks a temple</li>
+              <li> Middle - Visit a temple -> see replica of the real diety</li>
+              <li> High - Repeat to visit all the temples</li>
+            </ul>
+        </li>
+      </ul>
+    </p>
+
+    <div class="h-50"></div>
+    <p> <b style="font-size: 20px;">UI specifications</b> </br>
+    <ul>
+        <li>Immediate visual feedback upon item collection. Colour based on right or wrong object</li>
+        <li>Wide spacing between the grids to allow enough hand movement</li>
+        <li>A white ball indicates the current hand position</li>
+        <li>Hold the hand for 2 seconds at a grid to collect an item</li>
+        <li>Alternate coloured grids for easy differentiation, reduces visual strain</li>
+    </ul>
+
+    </p>
+    <!-- <img src="img/portfolio/01_3.png" style="width: 60%;"> -->
+
+    <video class="vid" width="650" playsinline autoplay muted loop>
+      <source src="img/portfolio/vid1.mp4" type="video/mp4">
+    </video>
+  
+    <div class="h-50"></div>
+    <!--  -->
+    <video class="vid" width="650" playsinline autoplay muted loop>
+      <source src="img/portfolio/vid3.mp4" type="video/mp4">
+    </video>
+
+    <!-- <img src="img/portfolio/01_5.png" style="width: 60%;"> -->
+  </section>
+
+  <section class="container" id="iterations" style="padding-top: 100px;">
+    <p class="size-30"> Testing and Improvements </p>
+    <div class="h-50"></div> 
+    <b style="font-size: 20px"> Iteration I </b>
+    <p>
+    We demonstrated the game to the head physician at a rehabilitation center and conducted user studies with two stroke victims. Participants were asked to visit a single temple by completing the following tasks.
+      <ul>
+        <li> Collect items to fill the health bar </li>
+        <li> Unlock a temple and walk inside to worship the Idol </li>
+      </ul>
+    </p>
+
+    <div class="h-50"></div>
+
+    <p> The following improvements were made based on the observations:</p>
+
+    <div class="iter_box">
+      <p> <b> Need for furhter simplification of gameplay.</b> </p>
+      <p> Initially, the grid consisted of three different types of items.
+          Health items to increase health points, prayer items for bonus points and restricted items to decrease
+          health points. However, it was observed that the user needs high concentration to perform the physical movement and more item categories induced difficulty rather than encouragment.</p>
+      <p> <b> Solution: </b> Removed Prayer items. Items are only of two types, appropriate for worship or not. Simplicity is priority.</p>
+    </div>
+    
+    <div class="h-50"></div> 
+
+    <div class="iter_box">
+      <p> <b> Repositioning the grid to accomodate movement for both the hands. </b></p>
+      <p> Users have motor impairment on left or right sides. Since the perpendicular hand position (start point) is calibrated to last column of the grid, it faltered the left hand movement and required the user to move from side to side.</p>
+      <p> <b> Solution: </b> The start position has been aligned with centre of the grid, with two
+          columns of matrix to right and two to the left allowing similar movement for both the hands from a static position. This also ensures that the user has elbow movement in both the directions. </p>
+    </div>
+    <div class="h-50"></div>
+    <div class="iter_box"> 
+      <p> <b> Facilitate gradual improvement by allowing increase of range. </b></p>
+      <p> To encourage users to increase their range of hand movement during the game,
+          an option was added to increase or decrease the maximum width and
+          height recorded during calibration through the keyborad.</p>
+    </div>
+    <div class="h-50"></div>
+    <div class="iter_box"> 
+      <p> <b> Logging the user performance to monitor. </b></p>
+      <p> The data of patient’s performance such as maximum range of hand movement in horizontal and vertical directions, time taken to fill health bar and the mode played are automatically stored into an excel sheet for the doctor's analysis. </p>
+    </div>
+
+    <!-- frequent options such as back, home, play, stop were given keyboard keys for easy access -->
+
+    <div class="h-50"></div> 
+
+    <p> <b style="font-size: 20px"> Iteration II </b> </p>
+    <p>
+    After implementing all the improvements from first iteration we re-conducted the usability testing for first part of the game. The participant details along with their performance data were recorded.</p>
+    <p><b>Task:</b> Collect relevant items to fill the health bar </p>
+
+    <table>
+      <tr>
+        <th></th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Recovery duration</th>
+        <th>Mode </th>
+        <th>Range (cm)</th>
+        <th> Time (sec)</th>
+      </tr>
+      <tr>
+        <td>Participant 1</td>
+        <td>45</td>
+        <td>Male</td>
+        <td>2 months</td>
+        <td>Vertical</td>
+        <td>31</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Participant 2</td>
+        <td>54</td>
+        <td>Female</td>
+        <td>6 months</td>
+        <td>Horizontal</td>
+        <td>34</td>
+        <td>102</td>
+      </tr>
+    </table>
+
+    <div class="h-50"></div>
+    <p>
+      <ul>
+        <li>The participants were comfortable with the gameplay. They stated that the game was involving and were willing to replay.
+        <li>It was observed that the users needed more time to interpret and move from one grid to another. Thus the duration of an item in a grid was increased from 6 seconds to 15 seconds.</li>
+        <li>The users mentioned that they preferred some form of hand support(for instance a table) for longer duration of play to avoid possibility of pain in the shoulder.</li>
+      </ul>
+    </p>
+
+    <div class="h-50"></div>
+    <p> <b style="font-size: 20px"> Summary </b> </p>
+    <div class="row">
+      <div class="result_box">
+        The physical movement required for controls in the game has a vital role in determining user's interest.
+      </div>
+
+      <div class="result_box">
+        A gameplay with a realistic scenario, made it relatable and appealing to the users.
+      </div>
+
+      <div class="result_box">
+        Obtaining a credit(collect an item -> health points) with small movement of hand(from one grid to another) kept the user engaged throughout. 
+      </div>
+
+
+      <div class="result_box">
+        Some rehabilitation centers would need additional arrangements to facilitate the game setup due to hardware or space constraints.
+        In the physician's words, "If more similar games were developed, it would encourage rehabilitation centres to buy them as a package"
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container" id="learnings" style="padding-top: 100px;">
+  <p class="size-30"> Reflections </p>
+  <ul>
+    <li> A structured user reseach in the beggining could have helped in pointing out majority of the issues observed in iteration I</li>
+    <li> As I understand the importance of design process in ideating good designs, reflecting back on the project, I would try to add improvements on the grid based item collection for hand movement. Address issue of pain for longer play and make it more involving using ideas such as drag and drop action etc</li>
+    <li> The user testing phase helped me learn to analyse the design in different perspectives of the user</li>
+    <li> I was able to learn Unity from scratch and develop the game within the project duration</li>
+    <li> This project inspired me to work towards making technologies accessible and involving</li>
+
+  </section>
+
+  <div class="h-50"></div>
+
+  <p style="text-align: center;color: #425BB5;font-weight: bold;"> Thank You </p>
+  <!-- <p> <a href="#top"> <img src="img/arrow_.png" style="width: 3%;margin-left: auto;"> </a> </p> -->
+  <p style="margin-left: 50%;"> <a href="#top"> <i class="arrow up"></i> </a> </p>
+  <div class="h-50"></div>
+
+</body>
+</html>

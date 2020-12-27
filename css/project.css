@@ -357,6 +357,12 @@ td, th {
       width: 90%;
       margin-left: 2px;
     }
+    .table{
+      width: 50%;
+    }
+    .result_box{
+      width: 60%;
+    }
 }
 
 
@@ -384,6 +390,10 @@ td, th {
     }
     nav li a {
         font-size: 6px;
+    }
+
+    .navbar a{
+      font-size: 8px;
     }
 }
 

@@ -108,7 +108,6 @@ a.active {
   left: 0;
   background-color: #faf7f5;
   overflow-x: hidden;
-  padding-top: 13%;
 }
 
 .sidenav li a {
@@ -123,6 +122,14 @@ a.active {
 
 .sidenav li a:hover {
   color: #425BB5;
+}
+
+.sidenav1{
+  padding-top: 13%;
+}
+
+.sidenav2{
+  padding-top: 19%;
 }
 
 /* General
@@ -270,7 +277,7 @@ img {
 
 .arrow {
   border: solid black;
-  border-width: 0 4px 4px 0;
+  border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 5px;
 }
@@ -341,6 +348,23 @@ td, th {
   font-size: 16px;
 }
 
+.button {
+  background-color: #302f2f; 
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.button:hover {
+  background-color: #808080;
+}
 /* Responsive media queries
 ==================================================*/
 

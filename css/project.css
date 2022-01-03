@@ -260,6 +260,18 @@ h4 {
     background-image: linear-gradient(to right, black , brown);
 }
 
+#title_c{
+    /*background: url(../img/pic1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
+    background-blend-mode: lighten; */
+    height: 40vh;
+    /* background-color: #f79836; */
+    background-color: black;
+    background-image: linear-gradient(to right, black , orange);
+}
+
 img {
   display: block;
   margin-left: 5%;
@@ -267,7 +279,27 @@ img {
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: white;
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.img_normal {
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.img_figma {
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  /*box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .up {
@@ -328,11 +360,40 @@ img {
   /* box-shadow: -12px 0 15px -4px rgba(31, 73, 125, 0.8); */
 }
 
+.category_box{
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 1px solid lightgrey ;
+  font-size: 14px;
+  /* box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: -12px 0 15px -4px rgba(31, 73, 125, 0.8); */
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.column_image {
+  float: center;
+  width: 60%;
+  padding: 10px;
+  align-content: center;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 table {
